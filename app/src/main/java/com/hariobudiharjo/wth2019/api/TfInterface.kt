@@ -8,9 +8,9 @@ import retrofit2.http.Query
 
 interface TfInterface {
     @GET("sensor")
-    fun getSensor(@Header("Authorization") token: String): Observable<ResponseBody>
+    fun getBalance(@Header("Authorization") token: String): Observable<ResponseBody>
 
     @GET("recentdata")
-    fun getRecent(@Header("Authorization") token: String, @Query("id") id: String, @Query("windspeedmph") wind: String): Observable<ResponseBody>
+    fun getTransaction(@Header("Authorization") token: String, @Query("id") id: String, @Query("windspeedmph") wind: String): Observable<ResponseBody>
 
 }

@@ -49,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <LinearLayout
+                android:id="@+id/ll_pertama"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -63,6 +64,7 @@
                     android:layout_height="wrap_content"/>
         </LinearLayout>
         <LinearLayout
+                android:id="@+id/ll_kedua"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -77,6 +79,7 @@
                     android:layout_height="wrap_content"/>
         </LinearLayout>
         <LinearLayout
+                android:id="@+id/ll_ketiga"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
@@ -91,6 +94,7 @@
                     android:layout_height="wrap_content"/>
         </LinearLayout>
         <LinearLayout
+                android:id="@+id/ll_empat"
                 android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
