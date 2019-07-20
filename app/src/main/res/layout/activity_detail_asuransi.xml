@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+        android:padding="10dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,22 +14,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         <ImageView
+                android:layout_gravity="center"
                 android:src="@drawable/icon_pendidikan"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
         <TextView
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
                 android:text="Asuransi Perjalanan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         <TextView
+                android:textColor="@android:color/black"
                 android:text="Asuransi Perjalanan adalah jenis asuransi yang menjamin resiko cacat tetap total atau meninggal dunia karena kecelakaan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/colorAccent"
                 android:text="Detail Paket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
     <TextView
+            android:textColor="@android:color/black"
             android:text="Pilih Paket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -105,6 +114,8 @@
     </LinearLayout>
 
     <Button
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
             android:text="Dapatkan Perlindungan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -114,6 +125,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
         <TextView
+                android:textStyle="bold"
+                android:textSize="18sp"
                 android:text="Klaim Online, Cepat dan Mudah"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -124,6 +137,35 @@
                 android:layout_height="wrap_content">
             <ImageView
                     android:src="@drawable/one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:textStyle="bold"
+                        android:text="Siapkan dokumennya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <TextView
+                        android:text="Download formulir klaim yang terlampir di e-mail awal pembelianmu. Siapkan identitas diri dan dokumen lain yang diperlukan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:src="@drawable/two"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <LinearLayout
@@ -145,49 +187,14 @@
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-        <TextView
-                android:text="Klaim Online, Cepat dan Mudah"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+
 
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
             <ImageView
-                    android:src="@drawable/one"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                <TextView
-                        android:text="Siapkan dokumennya"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                <TextView
-                        android:text="Download formulir klaim yang terlampir di e-mail awal pembelianmu. Siapkan identitas diri dan dokumen lain yang diperlukan"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        <TextView
-                android:text="Klaim Online, Cepat dan Mudah"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/one"
+                    android:src="@drawable/three"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
             <LinearLayout
@@ -212,6 +219,7 @@
             android:layout_height="2dp"/>
 
     <TextView
+            android:textStyle="bold"
             android:text="Kontak Klaim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -221,10 +229,12 @@
             android:layout_height="wrap_content"/>
 
     <TextView
+            android:textStyle="bold"
             android:text="Customer Care Centre\n+62 21 3005 8788"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     <TextView
+            android:textColor="@color/colorPrimary"
             android:text="Download Formulir Klaim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

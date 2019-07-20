@@ -11,6 +11,16 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".activity.DetailBenefitActivity">
+        </activity>
+        <activity android:name=".activity.DetailPlanActivity">
+        </activity>
+        <activity android:name=".activity.NotifActivity">
+        </activity>
+        <activity android:name=".activity.SucsessActivity">
+        </activity>
+        <activity android:name=".activity.KonfirmasiPembelianActivity">
+        </activity>
         <activity android:name=".activity.DetailPembelianActivity">
         </activity>
         <activity android:name=".activity.DetailDataActivity">
