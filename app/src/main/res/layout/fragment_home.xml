@@ -5,191 +5,225 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               tools:context=".fragment.HomeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
-            android:padding="20dp"
-            android:background="@color/colorPrimaryDark"
-            android:orientation="horizontal"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        <ImageView
-                android:src="@drawable/profile_pic"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            android:layout_height="match_parent">
         <LinearLayout
-                android:layout_marginLeft="20dp"
-                android:orientation="vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <TextView
-                    android:layout_marginBottom="10dp"
-                    android:textSize="18sp"
-                    android:textColor="@android:color/white"
-                    android:text="Hario Budiharjo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:textColor="@android:color/white"
-                    android:text="Saldo Tabungan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:textSize="18sp"
-                    android:textColor="@android:color/white"
-                    android:text="Rp 10,000,000"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-        </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-            android:weightSum="4"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        <LinearLayout
-                android:id="@+id/ll_pertama"
-                android:layout_weight="1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/icon_perjalanan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:text="Asuransi\nPerjalanan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-                android:id="@+id/ll_kedua"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/icon_jiwa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:text="Asuransi\nJiwa"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-                android:id="@+id/ll_ketiga"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/icon_kesehatan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:text="Asuransi\nKesehatan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-        </LinearLayout>
-        <LinearLayout
-                android:id="@+id/ll_empat"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/icon_pendidikan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <TextView
-                    android:text="Asuransi\nPendidikan"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-        </LinearLayout>
-
-
-    </LinearLayout>
-
-    <TextView
-            android:text="Berita"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-    <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/mask1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                android:layout_height="match_parent">
             <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
+                    android:padding="20dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-                <TextView
-                        android:textColor="@color/colorPrimaryDark"
-                        android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
+                <ImageView
+                        android:src="@drawable/profile_pic"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-                <TextView
-                        android:textColor="@color/colorAccent"
-                        android:text="See More"
-                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/mask1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                <TextView
-                        android:textColor="@color/colorPrimaryDark"
-                        android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
+                <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                <TextView
-                        android:textColor="@color/colorAccent"
-                        android:text="See More"
-                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:textStyle="bold"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="18sp"
+                            android:textColor="@android:color/white"
+                            android:text="Hario Budiharjo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:textColor="@android:color/white"
+                            android:text="Saldo Tabungan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:textColor="@android:color/white"
+                            android:text="Rp 10,000,000"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-            <ImageView
-                    android:src="@drawable/mask1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-            <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                <TextView
-                        android:textColor="@color/colorPrimaryDark"
-                        android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-                <TextView
-                        android:textColor="@color/colorAccent"
-                        android:text="See More"
-                        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
 
+            <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout
+                        android:weightSum="4"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                            android:gravity="center"
+                            android:id="@+id/ll_pertama"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/icon_perjalanan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <TextView
+                                android:text="Asuransi\nPerjalanan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:id="@+id/ll_kedua"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/icon_jiwa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <TextView
+                                android:text="Asuransi\nJiwa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:id="@+id/ll_ketiga"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/icon_kesehatan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <TextView
+                                android:text="Asuransi\nKesehatan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:gravity="center"
+                            android:id="@+id/ll_empat"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/icon_pendidikan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <TextView
+                                android:text="Asuransi\nPendidikan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/darker_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                <TextView
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:text="Berita"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/mask1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            <TextView
+                                    android:textColor="@color/colorAccent"
+                                    android:text="See More"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/mask2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            <TextView
+                                    android:textColor="@color/colorAccent"
+                                    android:text="See More"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        <ImageView
+                                android:src="@drawable/mask3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            <TextView
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:text="Promo Karyawan Produk Asuransi Mandiri Perlindungan Sejahtera dan Asuransi Mandiri Perlindungan Sejahtera Syariah"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+                            <TextView
+                                    android:textColor="@color/colorAccent"
+                                    android:text="See More"
+                                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

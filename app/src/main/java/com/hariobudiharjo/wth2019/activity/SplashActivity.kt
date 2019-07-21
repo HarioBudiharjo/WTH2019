@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         val thread = object : Thread() {
             override fun run() {
                 try {
-                    Thread.sleep(2000)
+                    sleep(2000)
                 } catch (e: InterruptedException) {
                     e.printStackTrace()
                 } finally {

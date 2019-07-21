@@ -10,8 +10,11 @@
 
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:srcCompat="@drawable/logomandiri"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@drawable/mandiri_putih"
             android:id="@+id/imageView"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 </android.support.constraint.ConstraintLayout>

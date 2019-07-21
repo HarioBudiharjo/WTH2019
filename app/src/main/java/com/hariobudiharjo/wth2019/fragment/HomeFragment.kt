@@ -25,6 +25,15 @@ class HomeFragment : Fragment() {
         v.findViewById<LinearLayout>(R.id.ll_pertama).setOnClickListener {
             goToDetail()
         }
+        v.findViewById<LinearLayout>(R.id.ll_kedua).setOnClickListener {
+            goToDetail()
+        }
+        v.findViewById<LinearLayout>(R.id.ll_ketiga).setOnClickListener {
+            goToDetail()
+        }
+        v.findViewById<LinearLayout>(R.id.ll_empat).setOnClickListener {
+            goToDetail()
+        }
 
         return v
     }

@@ -30,6 +30,6 @@ class LoginActivity : AppCompatActivity() {
     fun login(email: String, password: String) {
         val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
-
+        finish()
     }
 }
